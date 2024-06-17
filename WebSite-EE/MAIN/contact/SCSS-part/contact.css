@@ -1,0 +1,93 @@
+.contact {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact article {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact article .DivImg {
+  width: 15%;
+  height: 100%;
+}
+.contact article .DivImg img {
+  width: 100%;
+}
+.contact article .contactDiv {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.contact article .contactDiv section {
+  width: 100%;
+  height: 30%;
+  margin-top: 20px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact article .contactDiv section a {
+  transition: 0.15s;
+}
+.contact article .contactDiv section a:hover {
+  text-decoration: underline;
+}
+.contact article .contactDiv footer {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+.contact article .info {
+  width: 50%;
+  height: 100%;
+  margin-top: 20px;
+  padding-right: 90px;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  row-gap: 100px;
+}
+.contact article .info p {
+  font-size: 17px;
+  font-weight: 400;
+}
+.contact article .info h2 {
+  font-family: var(--fancy-font);
+  font-weight: 400;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.contact article .info input {
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid black;
+  padding-left: 5px;
+  outline: none;
+}
+.contact article .info .media {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.contact article .info .media a ion-icon {
+  font-size: 33px;
+  transition: 0.15s;
+}
+.contact article .info .media a ion-icon:hover {
+  color: rgb(90, 90, 90);
+}/*# sourceMappingURL=contact.css.map */

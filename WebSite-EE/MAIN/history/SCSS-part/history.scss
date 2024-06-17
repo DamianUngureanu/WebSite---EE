@@ -1,0 +1,41 @@
+
+    .history{
+        width: 50%;
+        height: auto;
+
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        text-align: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 10px;
+
+        position: relative;
+
+            h2{
+               font-family: var(--fancy-font);
+               font-weight: 300;
+               letter-spacing: 2px;
+               font-size: 40px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        .linieSus{
+            height: calc(50px);
+            border-left: 2px solid black;
+            position: absolute;
+            top:-50px;
+            left:50%;
+        }
+        .linieJos{
+            height: calc(50px + 6px);
+            border-left: 2px solid black;
+            position: absolute;
+            top:100%;
+            left:50%;
+        }

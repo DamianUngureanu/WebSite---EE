@@ -1,0 +1,30 @@
+.containerIMG {
+  width: 85%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerIMG .promo {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.containerIMG .promo p {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: var(--fancy-font);
+}
+.containerIMG .IMG {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.containerIMG .IMG img {
+  width: 200px;
+}/*# sourceMappingURL=containerIMG.css.map */

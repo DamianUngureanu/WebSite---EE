@@ -1,0 +1,42 @@
+.OS{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    p{
+        width: 40%;
+        text-indent: 20px;
+    }
+    dl{
+        margin-top:20px;
+    }
+    dt{
+        border-top: 1px solid black;
+        padding: 7px 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p{
+            width: 50%;
+            text-indent: 10px;
+        }
+    }
+    .plus{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        column-gap: 10px;
+
+        a:hover{
+            text-decoration: underline;
+        }
+        .triunghi{
+            transition: .2s;
+        }
+        a:hover + .triunghi{
+            transform: rotateZ(180deg);
+        }
+    }
+}

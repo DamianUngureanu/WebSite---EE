@@ -1,0 +1,20 @@
+.citate {
+  width: 50%;
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+.citate .citat {
+  font-family: var(--fancy-font-italic);
+  font-size: 18px;
+  text-align: center;
+}
+.citate .linie {
+  height: 50px;
+  border-left: 2px solid black;
+}
+.citate .autor {
+  font-family: var(--fancy-font);
+}/*# sourceMappingURL=citate.css.map */

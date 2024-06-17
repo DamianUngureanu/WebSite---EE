@@ -1,0 +1,14 @@
+.loading{
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: var(--background-color);
+    width:100vw; 
+    height:110vh;
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    position:fixed;
+    transition: .3s;
+    z-index: 100;
+}

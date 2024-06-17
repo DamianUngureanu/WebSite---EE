@@ -1,0 +1,22 @@
+figure {
+  width: 70%;
+  position: relative;
+}
+figure .logo {
+  width: 30vw;
+  position: absolute;
+  top: calc(50% - 15vw);
+  left: calc(50% - 15vw);
+}
+figure img {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+figure .linieIMG {
+  height: 9vw;
+  border-left: 2px solid var(--background-color);
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}/*# sourceMappingURL=figure.css.map */

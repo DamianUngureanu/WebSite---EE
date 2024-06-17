@@ -1,0 +1,40 @@
+.OS {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.OS p {
+  width: 40%;
+  text-indent: 20px;
+}
+.OS dl {
+  margin-top: 20px;
+}
+.OS dt {
+  border-top: 1px solid black;
+  padding: 7px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.OS dt p {
+  width: 50%;
+  text-indent: 10px;
+}
+.OS .plus {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.OS .plus a:hover {
+  text-decoration: underline;
+}
+.OS .plus .triunghi {
+  transition: 0.2s;
+}
+.OS .plus a:hover + .triunghi {
+  transform: rotateZ(180deg);
+}/*# sourceMappingURL=service.css.map */
